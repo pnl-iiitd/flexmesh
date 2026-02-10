@@ -21,9 +21,8 @@ In the proceedings of the CoNEXT 2026 Conference.
 |    └── Scheduler Simulation
 |    └── Scripts 
 ```
-* **CoDel-ACT**: This folder contains CoDel Algorithm code for tofino switch ASIC compliant to CoDel RFC.
-* **tstamp-CoDel-ACT**: This folder contains code of CoDel-ACT, additionally timestamps are appended in tcp options header field for calculation of queue delay.</br>
-* **tstamp-P4-CoDel**: This folder contains code of P4-CoDel, partially implementation of CoDel algorithm for tofino switch ASIC, additionally timestamps are appended in tcp options header field for calculation of queue delay.</br>
+* **Hardware**: This folder contains variable size cryptographic Cores of Rocca-S and AES-GCM algorithm. Along with this the Scheduler folder *AES-RR Simulation* conatins the code for Round robin shceduling done on AES-GCM ip's, and other *Simulation and Testbench folder* contains the code for the calculation of cycles of the load balancer function. 
+* **Software**: This folder contains code of different scheduling policies - round robin, non-work-conserving, FlexMesh, FlexMesh with request size prioritization. The script folder contiains the code for testing the processed files on metrics  throughput, resource, power efficiency and latency</br>
 * User can run the above folders code, by following steps under **Compile** heading. 
 
 ### Commands to calculate queue delay from pcap (tstamp-CoDel-ACT,tstamp-P4-CoDel): </br>
