@@ -9,12 +9,17 @@ In the proceedings of the CoNEXT 2026 Conference.
 
 ### Repository Structure
 ```
-├── plot 
-     └── result.ipynb 
-├── src 
-|    └── CoDel-ACT
-|    └── tstamp-CoDel-ACT
-|    └── tstamp-P4-CoDel 
+├── Hardware 
+     └── Cryptographic Cores
+           └── Rocca-S
+           └── AES-GCM
+     └── Scheduler
+          └── AES-RR Simulation
+          └── Simulation
+          └── Testbench
+├── Software
+|    └── Scheduler Simulation
+|    └── Scripts 
 ```
 * **CoDel-ACT**: This folder contains CoDel Algorithm code for tofino switch ASIC compliant to CoDel RFC.
 * **tstamp-CoDel-ACT**: This folder contains code of CoDel-ACT, additionally timestamps are appended in tcp options header field for calculation of queue delay.</br>
