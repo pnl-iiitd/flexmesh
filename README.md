@@ -21,12 +21,27 @@ In the proceedings of the CoNEXT 2026 Conference.
 |    └── Scheduler Simulation
 |    └── Scripts 
 ```
-* **Hardware**: This folder contains variable size cryptographic Cores of Rocca-S and AES-GCM algorithm. Along with this the Scheduler folder *AES-RR Simulation* conatins the code for Round robin shceduling done on AES-GCM ip's, and other *Simulation and Testbench folder* contains the code for the calculation of cycles of the load balancer function. 
-* **Software**: This folder contains code of different scheduling policies - round robin, non-work-conserving, FlexMesh, FlexMesh with request size prioritization. The script folder contiains the code for testing the processed files on metrics  throughput, resource, power efficiency and latency</br>
-* User can run the above folders code, by following steps under **Compile** heading. 
+## Description
 
-### Commands to calculate queue delay from pcap (tstamp-CoDel-ACT,tstamp-P4-CoDel): </br>
-After running the code, user can use iperf3 for generating load and dump pcap file and use the following ipynb file to compute queue delay from the pcap.
+### Hardware
+This directory contains variable-size cryptographic cores implementing the **Rocca-S** and **AES-GCM** algorithms.  
+The **Scheduler** folder includes:
+
+- **AES-RR Simulation**: Implementation of round-robin scheduling across multiple AES-GCM IPs.
+- **Simulation and Testbench**: Code used to evaluate the load balancer and calculate cycle counts.
+
+### Software
+This directory contains implementations of different scheduling policies, including:
+
+- Round-robin
+- Non-work-conserving
+- FlexMesh
+- FlexMesh with request-size prioritization
+
+The **Scripts** folder contains code for evaluating processed workloads using performance metrics such as throughput, resource efficiency, power efficiency, and latency.
+
+Users can run the code in the above folders by following the steps described under the **Compile** section.
+
 ```
 queue_delay.ipynb
 ``` 
