@@ -34,7 +34,7 @@ This directory contains implementations of different scheduling policies, includ
 
 The **Scripts** folder contains code for evaluating processed workloads using performance metrics such as throughput, resource efficiency, power efficiency, and latency.
 
-Users can run the code in the above folders by following the steps described under the **Compile** section.
+Users can run the code in the above folders by following the steps described under the section.
 
 **Input datasets**
 
