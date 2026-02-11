@@ -23,13 +23,6 @@ In the proceedings of the CoNEXT 2026 Conference.
 ```
 ## Description
 
-### Hardware
-This directory contains variable-size cryptographic cores implementing the **Rocca-S** and **AES-GCM** algorithms.  
-The **Scheduler** folder includes:
-
-- **AES-RR Simulation**: Implementation of round-robin scheduling across small size AES-GCM cryptographic cores.
-- **Simulation and Testbench**: Code used to evaluate the load balancer and calculate cycle counts.
-
 ### Software
 This directory contains implementations of different scheduling policies, including:
 
@@ -45,3 +38,11 @@ Users can run the code in the above folders by following the steps described und
 ```
 python3 ./software/scheduling_policies.py
 ``` 
+
+### Hardware
+This directory contains variable-size cryptographic cores implementing the **Rocca-S** and **AES-GCM** algorithms.  
+The **Scheduler** folder includes:
+
+- **AES-RR Simulation**: Implementation of round-robin scheduling across small size AES-GCM cryptographic cores.
+- **Simulation and Testbench**: Code used to evaluate the load balancer and calculate cycle counts.
+
