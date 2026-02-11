@@ -8,7 +8,7 @@ In the proceedings of the CoNEXT 2026 Conference.
 ## Preparation
 
 ### Repository Structure
-The repository contains variable-size cryptographic cores implementing the Rocca-S and AES-GCM algorithms, and along to test these algorithms with different set of scheduling policies.
+The repository contains the implementation of variable-size cryptographic cores of the Rocca-S and AES-GCM algorithms under different scheduling policies.
 ```
 ├── Hardware 
      └── Cryptographic Cores
