@@ -40,11 +40,11 @@ Users can run the code in the above folders by following the steps described und
 
 The 5G workload datasets required for the scheduler simulation can be downloaded from the following Google Drive link:
 
-5G Dataset (Google Drive):https://drive.google.com/drive/folders/11Gax78Uj_NIWJVP69aA1KMCxUWoTMXX_?usp=drive_link
+Google drive link :https://drive.google.com/drive/folders/11Gax78Uj_NIWJVP69aA1KMCxUWoTMXX_?usp=drive_link
 
 After downloading the files, users must provide two input paths while running the simulation:
 
-- Path to the 5G dataset CSV file
+- Path to the 5G dataset CSV file in the scheduling policy python file
 
 - Path to the packet latency file (packet_latencies.txt)
 
